@@ -1,0 +1,74 @@
+/* siteHeader */
+.siteHeader {
+    padding: 8px 16px;
+    margin: 0;
+
+}
+.siteHeader > h1 {
+    font-size: 32px;
+}
+/* end  */
+
+/* calendar  */
+.calendar {
+    background-color: white;
+    margin: 16px;
+    border-radius: 24px;
+    color: #333;
+    margin-top: 28px;
+}
+.calendar-header {
+    text-align: center;
+    padding: 16px 0px;
+}
+.calendar-header > time {}
+.calendar-weeks {
+    display: flex;
+}
+.calendar-weeks > li {
+    width: 14.2857%;
+    text-align: center;
+    line-height: 24px;
+}
+.calendar-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+.calendar-days-today {
+    background: #FED32C;
+    border-radius: 8px;
+}
+.calendar-days-selected {
+    outline: 1px solid #FED32C; /*outline 不占空间，，如果是border的话会占一个体积，字会下降一个像素*/
+    border-radius: 8px;
+}
+.calendar-days-disabled {
+    color: #999;
+}
+
+.calendar-days > li {
+    width: 14.2857%;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+}
+.calendar-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.calendar-actions button {
+    font: 12px;
+    height: 24px;
+    padding: 0 6px;
+}
+.calendar-actions-left {
+    /* margin-left: 32px; */
+}
+.calendar-actions-left > button {}
+.calendar-actions-right {
+    display: flex;
+}
+.calendar-actions-right > button {}
+/* end  */
